@@ -64,7 +64,6 @@
                   <li><a tabindex="0" href="javascript:alert(getElementsCountString())" class="teal waves-light btn focus-visible-only" role="alert" aria-label="Debug, muestra numero de etiquetas p, divs, li"><i class="material-icons">settings</i></a>
                     <a href="javascript:isUserLogged()" id="profileButton" class="teal waves-light btn focus-visible-only" style="margin-left:0px;"><i class="material-icons">account_box</i></a>
                     <a class="teal waves-light btn focus-visible-only" style="margin-left:0px;" href="shoppingCart.html"><i class="material-icons">shopping_cart</i></a>
-
                   </li>
                 </ul>
             </div>
@@ -370,11 +369,11 @@
       <script type="module"> import {getProductFromDB} from './jsonScripts/databaseFunctions.js';  window.getProductFromDB = getProductFromDB</script>
       <script type="module"> import {isUserLogged} from './jsonScripts/profileInfor.js';  window.isUserLogged = isUserLogged</script>
       <script type="module"> import {isUserLoggedProfileButton} from './jsonScripts/profileInfor.js';  window.isUserLoggedProfileButton = isUserLoggedProfileButton</script>
-      <script type="module">import {processSearchWithoutReloadInput} from './jsonScripts/processSearch.js'; window.processSearchWithoutReloadInput = processSearchWithoutReloadInput</script>
-      <script type="module">import {processSearchWithoutReload} from './jsonScripts/processSearch.js'; window.processSearchWithoutReload = processSearchWithoutReload</script>
-      <script type="module">import {loadTagsFromDB} from './jsonScripts/processSearch.js'; window.loadTagsFromDB = loadTagsFromDB</script>
-      <script type="module">import {processSearch} from './jsonScripts/processSearch.js'; window.processSearch = processSearch</script>
-      <script type="module">import {processSearchClick} from './jsonScripts/processSearch.js'; window.processSearchClick = processSearchClick</script>
+      <script type="module"> import {processSearchWithoutReloadInput} from './jsonScripts/processSearch.js'; window.processSearchWithoutReloadInput = processSearchWithoutReloadInput</script>
+      <script type="module"> import {processSearchWithoutReload} from './jsonScripts/processSearch.js'; window.processSearchWithoutReload = processSearchWithoutReload</script>
+      <script type="module"> import {loadTagsFromDB} from './jsonScripts/processSearch.js'; window.loadTagsFromDB = loadTagsFromDB</script>
+      <script type="module"> import {processSearch} from './jsonScripts/processSearch.js'; window.processSearch = processSearch</script>
+      <script type="module"> import {processSearchClick} from './jsonScripts/processSearch.js'; window.processSearchClick = processSearchClick</script>
       <script>
         window.onload = () => {
           getPricesFromDB();

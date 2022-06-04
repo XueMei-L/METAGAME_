@@ -49,7 +49,7 @@ export function purgeCartFromDB(user) {
     updates['users/' + user + '/current_cart'] = current_cart;
     update(ref(db), updates)
     alert('Se han borrado todos los elementos del carro')
-    location.href = '/METAGAME V 5.0.0 Wai-Aria/shoppingCart.html'
+    location.href = '/METAGAME_/shoppingCart.html'
   }).catch((error) => {
   });
 }

@@ -73,7 +73,7 @@ export async function register () {
     await set(ref(database_ref, 'users/' + user.uid),user_data);
 
     if(!alert('Usuario creado correctamente, se le redirigira al inicio de sesion')) {
-      location.href = "/METAGAME V 5.0.0 Wai-Aria/login.html"
+      location.href = "/METAGAME_/login.html"
     }
   })
   .catch(function(error) {
@@ -111,7 +111,7 @@ export async function login () {
 
     // Done
     if(!alert('Inicio de sesion correcto')) {
-      location.href = "/METAGAME V 5.0.0 Wai-Aria/index.html"
+      location.href = "/METAGAME_/index.html"
     }
 
   })
