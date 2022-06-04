@@ -1,0 +1,13 @@
+[
+  {
+    "dni": "42281439X",
+    "year": 2000,
+    "account": 1234567887654321,
+    "current_cart": [ {"product":"Elden Ring", "price":59.99},{"product":"Ark", "price":59.99}, 
+                      {"product":"Overcooked", "price":12.99}, {"product":"Valheim", "price":14.99}, 
+                      {"product":"Lost ARK", "price":0} 
+                    ],
+    "discount": 0,
+    "payment_method": "CreditCard"
+  }
+]

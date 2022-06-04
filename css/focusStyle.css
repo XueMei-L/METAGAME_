@@ -1,0 +1,7 @@
+.focus-visible-only:focus-visible {
+    outline: 3px dashed white;
+  }
+
+.focus-visible-only-black:focus-visible {
+  outline: 3px dashed black;
+}
