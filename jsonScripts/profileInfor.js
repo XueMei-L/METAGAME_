@@ -55,9 +55,9 @@ export function isUserLogged() {
     const auth = firebaseAuth.getAuth();
     auth.onAuthStateChanged(function(user) {
     if (user) {
-        location.href = "/METAGAME V 5.0.0 Wai-Aria/profile.html"
+        location.href = "/profile.html"
     } else {
-        location.href = "/METAGAME V 5.0.0 Wai-Aria/login.html"
+        location.href = "/login.html"
     }
   });
 }
@@ -67,7 +67,7 @@ export function getLoginStatusToProfile() {
     const auth = firebaseAuth.getAuth();
     auth.onAuthStateChanged(function(user) {
     if (user) {
-      location.href = "/METAGAME V 5.0.0 Wai-Aria/profile.html"
+      location.href = "/profile.html"
     } else {
       alert('No hay usuario conectado, inicie sesion primero');
     }
@@ -78,7 +78,7 @@ export function signOutProfile() {
     const auth = firebaseAuth.getAuth();
     auth.signOut(auth).then(() => {
      if (!alert('Se ha cerrado la sesion')) {
-      location.href= "/METAGAME V 5.0.0 Wai-Aria/login.html"
+      location.href= "/login.html"
      }
     }).catch((error) => {
     // An error happened.
@@ -219,7 +219,7 @@ export function userUpdateProfile() {
           // Push to Firebase Database
           await set(ref(database_ref, 'users/' + user.uid),userDB);
           if(!alert('Informacion actualizada, se le redirigira al perfil')){
-            location.href = "/METAGAME V 5.0.0 Wai-Aria/profile.html"; 
+            location.href = "/profile.html"; 
           }
           //console.log(current_cart)
         }).catch((error) => {
