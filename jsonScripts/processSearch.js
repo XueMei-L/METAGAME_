@@ -25,20 +25,20 @@ export function processSearch(searchBox) {
   $("#searchBox").on('keyup', function (e) {
     if (e.key === 'Enter' || e.keyCode === 13) {
       localStorage.setItem("searchText",searchBox);
-      location.href= "/searchResults.html"
+      location.href= "/METAGAME_/searchResults.html"
     }
   });
   $("#sideNavSearchBox").on('keyup', function (e) {
     if (e.key === 'Enter' || e.keyCode === 13) {
       localStorage.setItem("searchText",searchBox);
-      location.href= "/searchResults.html"
+      location.href= "/METAGAME_/searchResults.html"
     }
   });
 }
 
 export function processSearchClick(searchBox) {
   localStorage.setItem("searchText",searchBox);
-  location.href= "/searchResults.html"
+  location.href= "/METAGAME_/searchResults.html"
 }
 
 
