@@ -17,13 +17,5 @@
 >>  GITHUB:      https://github.com/XueMei-L/METAGAME.git
 ```
 
-En Metagame V 3.0.0, añadimos codigos JavaScript para implementar los siguientes requisitos:
-
-1. Define una función en javascript en la que se inserte en una tarjeta un texto que el usuario introduce por el teclado.
-
-2. Crear un script que muestre un informe de la cantidad de párrafos,  items de lista y elementos div en tu página de inicio.
-
-3. Define una función javascript que calcule el importe de una compra de un usuario. Se presupone que los datos de la compra están en un json de ejemplo incluido en el script.  En el json se registra para cada usuario su dni, año de nacimiento, número de cuenta, productos en la compra actual, % de descuento (si lo tiene), modalidad de pago. El json debe estar en el propio código, inicializando una variable, explica por qué se te exige este requisito.
-
-4. Crear una función en el script para agregar en la página el importe de la compra y el día que será efectuado el pago (fecha actual si la compra no es a crédito).
-
+This is the final project of Metagame, we have previous versions in the following link:
+[Metagame all version](https://github.com/XueMei-L/METAGAME.git)
