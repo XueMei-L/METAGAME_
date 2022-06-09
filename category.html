@@ -52,7 +52,7 @@
                         <label for="searchBox" style="color: white;">Búsqueda</label>
                       </div>
                       <div class="input-field col s2">
-                        <a href="./searchResults.html" onclick ="processSearchClick($('#searchBox').val())"><i class="material-icons">search</i></a>
+                        <a aria-label="Boton buscar" href="./searchResults.html" onclick ="processSearchClick($('#searchBox').val())"><i class="material-icons">search</i></a>
                       </div>
                     </div>
                   </form>
@@ -61,9 +61,8 @@
               <div class=" right hide-on-med-and-down">
                 <ul>
                   <li><a tabindex="0" href="javascript:alert(getElementsCountString())" class="teal waves-light btn focus-visible-only" role="alert" aria-label="Debug, muestra numero de etiquetas p, divs, li"><i class="material-icons">settings</i></a>
-                    <a href="javascript:isUserLogged()" id="profileButton" class="teal waves-light btn focus-visible-only" style="margin-left:0px;"><i class="material-icons">account_box</i></a>
-                    <a class="teal waves-light btn focus-visible-only" style="margin-left:0px;" href="shoppingCart.html"><i class="material-icons">shopping_cart</i></a>
-
+                    <a aria-label="Perfil o Iniciar Sesion" href="javascript:isUserLogged()" id="profileButton" class="teal waves-light btn focus-visible-only" style="margin-left:0px;"><i class="material-icons">account_box</i></a>
+                    <a aria-label="Carrito" class="teal waves-light btn focus-visible-only" style="margin-left:0px;" href="shoppingCart.html"><i class="material-icons">shopping_cart</i></a>
                   </li>
                 </ul>
             </div>
